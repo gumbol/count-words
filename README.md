@@ -3,8 +3,8 @@ A vanilla javascript code to count the occurance of a word in a string.
 
 ```code
 const countWords = require("./count-words-v1")
-console.log(countWords("roadroadrunnerROad", "road")
-// -> 3
+console.log(countWords("road   roadroadrunnerROad", "road")
+// -> 4
 ```
 
 Acknowledgment:
