@@ -8,4 +8,4 @@ console.log(countWords("road   roadroadrunnerROad", "road")
 ```
 
 ## Acknowledgment
-Inspired by exercises from [Eloquent Javascript](https://eloquentjavascript.net) book exercises by [Marijn Haverbeke](https://github.com/marijnh)
+Inspired by exercises from [Eloquent Javascript](https://eloquentjavascript.net) book by [Marijn Haverbeke](https://github.com/marijnh)
