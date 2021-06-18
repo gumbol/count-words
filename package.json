@@ -1,6 +1,6 @@
 {
   "name": "@tyah/count-words",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Count the occurance of a word in a given string.",
   "main": "count-words-v1.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "keywords": [
     "count-words",
     "search-word",
-	"search"
+    "search"
   ],
   "author": "Tarik Alyahya",
   "license": "MIT",
