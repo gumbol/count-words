@@ -1,6 +1,6 @@
-function countWords (string, word)
+module.exports = (string, word) =>
 {
-  let parseStr = String(string)
+  let parseStr = String(string).toLowerCase()
   let parseWord = String(word)
   let count = '';
   let save = 0
@@ -21,3 +21,4 @@ function countWords (string, word)
   if (save > 0) return save;
   return "no match"
 }
+

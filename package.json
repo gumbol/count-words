@@ -1,8 +1,8 @@
 {
-  "name": "@tyah/count-words",
+  "name": "count-words",
   "version": "1.0.0",
-  "description": "Count words in a given string.",
-  "main": "./scripts/count-words.js",
+  "description": "Count the occurance of a word in a given string.",
+  "main": "count-words-v1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,7 @@
 	"search"
   ],
   "author": "Tarik Alyahya",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gumbol/count-words/issues"
   },
