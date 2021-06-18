@@ -1,7 +1,7 @@
 module.exports = (string, word) =>
 {
   let parseStr = String(string).toLowerCase()
-  let parseWord = String(word)
+  let parseWord = String(word).toLowerCase()
   let count = '';
   let save = 0
   for (let i = 0; i < parseStr.length; i++)

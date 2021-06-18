@@ -1,5 +1,5 @@
 {
-  "name": "count-words",
+  "name": "@tyah/count-words",
   "version": "1.0.0",
   "description": "Count the occurance of a word in a given string.",
   "main": "count-words-v1.js",
