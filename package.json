@@ -1,0 +1,24 @@
+{
+  "name": "@gumbol/count-words",
+  "version": "1.0.0",
+  "description": "Count words in a given string.",
+  "main": "./scripts/count-words.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gumbol/count-words.git"
+  },
+  "keywords": [
+    "count-words",
+    "search-word",
+	"search"
+  ],
+  "author": "Tarik Alyahya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gumbol/count-words/issues"
+  },
+  "homepage": "https://github.com/gumbol/count-words#readme"
+}
