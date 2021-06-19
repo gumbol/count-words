@@ -14,7 +14,7 @@ npm i @tyah/count-words
 git clone https://github.com/gumbol/count-words
 ```
 
-### examples
+### Examples
 ```code
 const countWords = require("./count-words")
 console.log(countWords("fooBarFOobazBar fOo f  oo   F   oO", "fobar")
