@@ -1,4 +1,4 @@
-const countWords = require("./count-words-v1.js")
+const countWords = require("./count-words")
 
 
 console.log(countWords("foobarFoooffbaz bar foofofff foO", "foo"))

@@ -1,12 +1,12 @@
 # Count Words
-A vanilla javascript code to count the occurance of a word in a string.
-The function takes two arguments a string and a word to search for
+A lightweight vanilla javascript code to count the occurance of a word or a phrase in a string.
 
-## Features
-* Extract a given word from a string ignoring spaces or letter case. 
+## Use
 
-count a word or a phrase regardless if ther
-
+```code
+npm i @tyah/count-words
+```
+### examples
 ```code
 const countWords = require("./count-words-v1")
 console.log(countWords("fooBarFOobazBar fOo", "foo")
@@ -14,6 +14,9 @@ console.log(countWords("fooBarFOobazBar fOo", "foo")
 
 console.log(countWords("fooBarFOobazBar fOo f  oo   F   oO", "f   oo")
 // -> 2
+
+console.log(countWords("fooBarFOobazBar fOo f  oo   F   oO", "fooBaz")
+// -> 1
 ```
 
 ## Acknowledgement
