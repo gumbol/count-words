@@ -16,7 +16,7 @@ git clone https://github.com/gumbol/count-words
 
 ### examples
 ```code
-const countWords = require("./count-words-v1")
+const countWords = require("./count-words")
 console.log(countWords("fooBarFOobazBar fOo f  oo   F   oO", "fobar")
 // -> No match
 
