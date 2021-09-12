@@ -19,6 +19,6 @@ module.exports = (string, word) =>
     }
   }
   if (save > 0) return save;
-  return "no match"
+  return "No match"
 }
 
