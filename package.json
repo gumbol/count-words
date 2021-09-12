@@ -1,8 +1,8 @@
 {
   "name": "@tyah/count-words",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Count the occurance of a word or a phrase in a string.",
-  "main": "count-words.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
