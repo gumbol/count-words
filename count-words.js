@@ -1,24 +1,24 @@
 module.exports = (string, word) =>
 {
-  let parseStr = String(string).toLowerCase()
-  let parseWord = String(word).toLowerCase()
+  let parsedStr = String(string).toLowerCase()
+  let parsedWord = String(word).toLowerCase()
   let count = '';
   let save = 0
-  for (let i = 0; i < parseStr.length; i++)
+  for (let i = 0; i < parsedStr.length; i++)
   {
-    if (parseStr[i] === parseWord[count.length]) count += parseStr[i];
+    if (parsedStr[i] === parsedWord[count.length]) count += parsedStr[i];
     else if (count.length)
     {
       i--;
       count = '';
     }
-    if (count.length === parseWord.length)
+    if (count.length === parsedWord.length)
     {
       save++;
       count = '';
     }
   }
   if (save > 0) return save;
-  return "no match"
+  return "No match";
 }
 

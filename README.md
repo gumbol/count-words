@@ -1,29 +1,32 @@
 # Count Words
 A lightweight vanilla javascript app to count the occurance of a word or a phrase in a string.
 
-## Getting started
+## Installation
 
-Install either by 
+NPM Install 
 * Using npm
 ```code
 npm i @tyah/count-words
 ```
 
-* Cloning the repository
+* Cloning repository
 ```code
 git clone https://github.com/gumbol/count-words
 ```
 
-### examples
+## Getting started
+
+### example
 ```code
-const countWords = require("./count-words-v1")
-console.log(countWords("fooBarFOobazBar fOo f  oo   F   oO", "fobar")
+const countWords = require("path/to/repo/count-words")
+
+console.log(countWords("fooBarFOobazBar fOo f   oo   F   oO", "fobar"))
 // -> No match
 
-console.log(countWords("fooBarFOobazBar fOo f  oo   F   oO", "f   oo")
+console.log(countWords("fooBarFOobazBar fOo f   oo   F   oO", "f   oo"))
 // -> 2
 
-console.log(countWords("fooBarFOobazBar fOo f  oo   F   oO", "fooBaz")
+console.log(countWords("fooBarFOobazBar fOo f   oo   F   oO", "fooBaz"))
 // -> 1
 ```
 
