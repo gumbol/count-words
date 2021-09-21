@@ -1,10 +1,6 @@
 {
   "name": "@tyah/count-words",
-<<<<<<< HEAD
-  "version": "1.0.2",
-=======
-  "version": "1.0.3",
->>>>>>> 040c030b186ab5fef847363000f82e4511cb62cc
+  "version": "1.2.0",
   "description": "Count the occurance of a word or a phrase in a string.",
   "main": "count-words.js",
   "scripts": {
