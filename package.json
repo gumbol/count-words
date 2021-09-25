@@ -1,6 +1,6 @@
 {
   "name": "@tyah/count-words",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Count the occurance of a word or a phrase in a string.",
   "main": "./index.js",
   "scripts": {
@@ -23,5 +23,4 @@
     "url": "https://github.com/gumbol/count-words/issues"
   },
   "homepage": "https://github.com/gumbol/count-words#readme"
-  
 }
