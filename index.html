@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+
+<script type="module">
+    import countWords from "./count-words.js"
+	let word = "fobar-f   oo-fooBaz".split("-")
+    for(let i =0; i < word.length; i++){
+	let p = document.createElement('p')
+	p.innerText = countWords("fooBarFOobazBar fOo f   oo   F   oO", word[i])
+	document.body.appendChild(p)
+	// -> No match
+	// -> 2
+	// -> 1
+}
+</script>
+
+</body>
+
+
+   
+</html>

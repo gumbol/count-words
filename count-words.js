@@ -1,7 +1,9 @@
+ /* jslint esversion: 8 */
 module.exports = (string, word) =>
+//export default (string, word) =>
 {
-  let parsedStr = String(string).toLowerCase()
-  let parsedWord = String(word).toLowerCase()
+  let parsedStr = String(string).toLowerCase();
+  let parsedWord = String(word).toLowerCase();
   let count = '';
   let save = 0
   for (let i = 0; i < parsedStr.length; i++)
@@ -20,5 +22,4 @@ module.exports = (string, word) =>
   }
   if (save > 0) return save;
   return "No match";
-}
-
+}; 
